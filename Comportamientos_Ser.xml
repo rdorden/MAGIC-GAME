@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaComportamientos SYSTEM "ModeloComportamientos.dtd">
+<listaComportamientos>
+<comportamiento>
+	<codigo>Copiar</codigo>
+	<id>1</id>
+	<descripcion>Sólo se activa en la fase de trifulca, siempre y cuando este ser esté asignado como defensor de algún otro ser  atacante. Además, la activación de este comportamiento especial es optativa, el brujo que controla a este ser puede decidir, en el momento oportuno, si quiere o no quiere activarlo. Cuando se activa este comportamiento especial, todos los atributos del ser (nombre, código, tipo, clase, ataque, defensa, coste, ejemplares, comportamientos especiales, etc.)  cambian para pasar a ser iguales a los del ser atacante. A partir de entonces, a todos los efectos es como si  el ser hubiese dejado de existir. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>NoDefensores</codigo>
+	<id>2</id>
+	<descripcion>Sólo se activa en la fase de trifulca, siempre y cuando este ser haya sido elegido como atacante. Cuando  se activa este comportamiento especial, ningún ser de clase "+clase+" puede ser asignado como defensor del este ser.  </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>SumaEnAtaque2</codigo>
+	<id>3</id>
+	<descripcion>Sólo se activa en la fase de trifulca, siempre y cuando este ser haya sido elegido como atacante. Cuando se activa este comportamiento especial, el ser suma "+defensa+" puntos a su atributo de defensa siendo "+defensa+" el número de defensores que tenga asignados. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>SumaEnDefensa</codigo>
+	<id>3</id>
+	<descripcion> Sólo se activa en la fase de trifulca, siempre y cuando este ser esté asignado como defensor de algún  otro ser atacante. Cuando se activa este comportamiento especial, el ser resta"+defensa+" puntos a su atributo de  defensa si está asignada como defensora de un ser atacante de clase "+clase+" </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>SumaEnAtaque</codigo>
+	<id>3</id>
+	<descripcion>Sólo se activa en la fase de trifulca, siempre y cuando este ser haya sido elegido como atacante. Cuando se activa este comportamiento especial, el ser suma"+ataque+" puntos a su atributo de ataque y "+defensa+" puntos  a su atributo de defensa siendo"+ataque+" el número de defensores de clase"+clase+" que tenga asignados. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>NoIntervenciones</codigo>
+	<id>1</id>
+	<descripcion>El comportamiento especial de este ser se activa en cuanto se juega cualquier intervención,impidiendo que se pueda escoger como objeto de dicha intervención. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>DevolverMano</codigo>
+	<id>1</id>
+	<descripcion>Se activa al terminar la fase de trifulca (es decir, habiendo ya resuelto la trifulca y la muerte de seres), siempre y cuando este ser haya actuado durante dicha trifulca como defensor de algún otro ser atacante. Cuando se activa este comportamiento especial, si dicho ser atacante sigue en la zona de juego, regresa a la mano del brujo que lo controla.</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>DescargarFinal</codigo>
+	<id>1</id>
+	<descripcion>Se activa al terminar la fase de trifulca(es decir, habiendo ya resuelto la trifulca y la muerte de seres), siempre y cuando este ser haya actuado durante dicha trifulca como atacante. Cuando se activa este comportamiento especial, si hubo seres que actuaran como defensores del dicho ser en la trifulca anterior que todavía siguen en la zona de juego, dichos seres se descargan. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>habilidad</codigo>
+	<id>1</id>
+	<descripcion>Sin comportamiento</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>MultiplicaAtaque</codigo>
+	<id>4</id>
+	<descripcion>Solo se activa justo en la fase de trifulca, siempre y cuando este ser haya sido elegido como atacante. Cuando se activa este comportamiento especial, el ser multiplica por"+n+" su atributo de ataque si no tiene ningún defensor asignado. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>SumaEnAtaque4</codigo>
+	<id>3</id>
+	<descripcion>Sólo se activa en la fase de trifulca, siempre y cuando este ser haya sido elegido como atacante.  Cuando se activa este comportamiento especial, el ser suma "+defensa+" puntos a su atributo de defensa siendo "+defensa+" el número de defensores que no sean de clase "+clase+" que tenga asignados. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>UnicoDefendido</codigo>
+	<id>1</id>
+	<descripcion>Sólo se activa en la fase de trifulca, siempre y cuando este ser haya sido elegido como atacante.  Cuando se activa este comportamiento especial, el brujo oponente sólo puede asignar defensores a este ser  (puede elegir no asignar defensores, pero no puede asignarlos a otros seres atacantes distintos de este ser). </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Eliminacion</codigo>
+	<id>1</id>
+	<descripcion>El comportamiento especial de este ser se activa en cuanto se juega cualquier intervención, impidiendo que se  pueda escoger como objeto de dicha intervención al ser. Otro comportamiento especial de este ser se activa al final de la fase de trifulca, de manera que por cada ser  asignado como defensor a este ser que muera, el brujo que controla dicho ser recibe 1 punto de daño.  Además todos estos seres que han muerto son destruidos por completo, en lugar de ser enviados al vertedero. </descripcion>
+</comportamiento>
+</listaComportamientos>

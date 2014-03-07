@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaComportamientos SYSTEM "ModeloComportamientos.dtd">
+
+<listaComportamientos>
+<comportamiento>
+	<codigo>Salitre</codigo>
+	<id>3</id>
+	<descripcion>Esta intervención debe jugarse en la fase de trifulca, una vez hayan sido asignados los seres atacantes.  Al resolverse, se restan 2 puntos a los puntos de ataque de todos los seres atacantes. Este efecto permanecerá durante toda la fase de trifulca. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Euforia</codigo>
+	<id>1</id>
+	<descripcion>Al resolverse, se añaden permanentemente 2 cartas a la mano del brujo que juega la intervención que son  quitadas previamente de la mano de su oponente. Si el oponente tiene más de 2 cartas, las cartas a trasladar se escogerán aleatoriamente; si tiene sólo 1 carta, se traslada sólo esa;  y si no tiene ninguna, esta intervención no causa ningún efecto.  </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Furia</codigo>
+	<id>3</id>
+	<descripcion>Esta intervención debe jugarse en la fase de trifulca y con un ser como objetivo. Al resolverse, se multiplican por 2 los puntos de ataque de dicho ser. Este efecto permanecerá durante toda la fase de trifulca. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Fluir</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse en la fase de trifulca y con un ser atacante como objetivo.  Al resolverse, se considerará que dicho ser atacante no tienen asignado a ningún ser que lo defienda.  Este efecto permanecerá durante toda la fase de trifulca. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Psicofonia</codigo>
+	<id>1</id>
+	<descripcion>Al resolverse, el brujo que ha jugado esta intervención verá el contenido de todas las cartas que tiene su  	oponente en la mano, durante el lapso de tiempo que considere necesario.  Después el juego sigue su curso sin ningún otro efecto adicional. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Raices</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse con un ser como objetivo. Al resolverse, este ser queda descargado.</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Resaca</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse con un ser como objetivo. Al resolverse, este ser se quita de la zona  de juego (y abandona el control) del brujo correspondiente para pasar a añadirse a la  zona de juego (y al control) de su oponente.  El efecto de esta intervención es permanente, salvo que más adelante haya otro efecto que vuelva  a cambiar de bando a este ser. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Vientos</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse cuando tanto el brujo que juega la intervención como su oponente  tienen al menos 1 entorno cada uno en su zona de juego. El brujo que juega la intervención seleccionará un total de N entornos de su zona de juego (bajo su control) y el mismo número N de entornos de la zona  de juego (bajo el control) de su oponente, siendo N igual o mayor que 1. Al resolverse, los entornos  seleccionados se intercambian, pasando los del brujo que lanza la intervención a la zona de  juego (y control) de su oponente y viceversa. El efecto de esta intervención es permanente, salvo que más adelante haya otro efecto que vuelva  a cambiar de bando alguno de estos entornos. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Ansia</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse con un brujo como objetivo. Al resolverse, cada vez que dicho brujo tiene  que coger una carta al comienzo de su turno, en vez de 1 carta coge tantas cartas como necesite hasta  tener el mismo número de cartas en la mano que tuvo al iniciar la partida. El efecto de esta intervención es permanente, salvo que más adelante haya otro efecto que lo contradiga. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Colleja</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse con un ser como objetivo. Al resolverse, dicho ser sufre tantos puntos de  daño como puntos de atributo de ataque tiene.Si los puntos de daño recibidos superan sus puntos de defensa, este ser muere y es llevado inmediatamente  al vertedero.</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Marejadilla</codigo>
+	<id>1</id>
+	<descripcion>Al resolverse, todos los seres de clase Tierra o Mar que están en la zona de juego (bajo el control)  del brujo oponente pasan a la zona de juego (y el control) del brujo que ha jugado esta intervención. El efecto de esta intervención es permanente, salvo que más adelante haya otro efecto que vuelva  a cambiar de bando alguno de estos seres. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Impugnacion</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse con una intervención (situada en el limbo de las intervenciones)  como objetivo.Al resolverse, la intervención objetivo se lleva inmediatamente al vertedero del brujo  que la jugó, con lo que no se llegará a resolver ni podrá aplicar su efecto. 	Si existen el limbo de intervenciones otras intervenciones cuyos efectos dependan de la que ha sido  enviada al vertedero, se considerarán sin efecto alguno. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Rayos</codigo>
+	<id>1</id>
+	<descripcion>Esta intervención debe jugarse con un ser como objetivo. Al resolverse, este ser se retira  inmediatamente de la zona de juego y se envía al vertedero del brujo que lo controla. El brujo que ha jugado esta intervención gana además 1 punto de vida. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Resquemor</codigo>
+	<id>2</id>
+	<descripcion>Esta intervención debe jugarse en la fase de trifulca, una vez hayan sido asignados  los seres defensores. Al resolverse, se restan 2 puntos a los puntos de defensa de  todos los seres defensores. Este efecto permanecerá durante toda la fase de trifulca,  	incluido el paso de muerte de seres. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Tsunami</codigo>
+	<id>1</id>
+	<descripcion>Al resolverse, todos los seres de la zona de juego (y bajo el control) del brujo oponente sufren tantos puntos de daño como entornos tenga descargados el brujo que ha jugado  esta intervención.  Si los puntos de daño recibidos superan los puntos de defensa de un ser, este muere  y es llevado inmediatamente al vertedero. </descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Chimichanga</codigo>
+	<id>1</id>
+	<descripcion>:El comportamiento especial de esta intervención es destruir un ser en juego del jugador rival. El ser no es enviado al cementerio sino que se elimina de la partida.  Esta intervencion no afecta ni a Odin ni a Cucaracha.</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>Sustazo</codigo>
+	<id>1</id>
+	<descripcion>El comportamiento especial de esta intervencion es eliminar los comportamientos especiales de un ser objetivo.  Esta intervencion no afecta ni a Odin ni a Cucaracha</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>TeVoyADar</codigo>
+	<id>1</id>
+	<descripcion>Al resolverse, quitas tantas vidas a tu rival como cloros tengas en tu banco de cloros.</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>GolpeDeViento</codigo>
+	<id>1</id>
+	<descripcion>El comportamiento especial de esta intervención es hacer 3 puntos de daño al brujo oponente. Además añadirá al banco de cloro 3 cloros genéricos</descripcion>
+</comportamiento>
+</listaComportamientos>

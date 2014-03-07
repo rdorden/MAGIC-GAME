@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT juego (lista_cartas+)>
+<!ATTLIST juego
+titulo CDATA #REQUIRED
+autor CDATA #REQUIRED
+version CDATA #REQUIRED >
+<!ELEMENT lista_cartas (carta_entorno*, carta_ser*,carta_intervecion*)>
+<!ELEMENT carta_entorno (coste,comportamiento)>
+<!ATTLIST carta_entorno
+	codigo CDATA #REQUIRED
+	nombre CDATA #REQUIRED
+	max CDATA #REQUIRED
+	clase (mar|aire|tierra|espiritu|mar) #REQUIRED
+	tipo CDATA #REQUIRED
+	imagen CDATA #REQUIRED>
+
+<!ELEMENT carta_ser (coste,comportamiento)>
+<!ATTLIST carta_ser
+	codigo CDATA #REQUIRED
+	nombre CDATA #REQUIRED
+	max CDATA #REQUIRED
+	clase (mar|aire|tierra|espiritu|mar) #REQUIRED
+	tipo CDATA #REQUIRED
+	imagen CDATA #REQUIRED
+	ataque CDATA #REQUIRED
+	defensa CDATA #REQUIRED>
+
+<!ELEMENT carta_intervencion (coste,comportamiento)>
+<!ATTLIST carta_intervencion
+	codigo CDATA #REQUIRED
+	nombre CDATA #REQUIRED
+	max CDATA #REQUIRED
+	clase (mar|aire|tierra|espiritu|mar) #REQUIRED
+	tipo CDATA #REQUIRED
+	imagen CDATA #REQUIRED>
+
+<!ELEMENT comportamiento EMPTY>
+<!ATTLIST comportamiento
+	descripcion CDATA #REQUIRED
+	codigo CDATA #IMPLIED
+	variable1 CDATA #IMPLIED
+	variable2 CDATA #IMPLIED
+	variable3 (mar|aire|tierra|espiritu|mar) #IMPLIED>
+
+<!ELEMENT coste EMPTY>
+<!ATTLIST coste
+	aire CDATA #IMPLIED
+	mar CDATA #IMPLIED
+	tierra CDATA #IMPLIED
+	espiritu CDATA #IMPLIED
+	generico CDATA #IMPLIED>

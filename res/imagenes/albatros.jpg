@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE juego SYSTEM "DTD2.dtd">
+<juego titulo="Brujos y Trifulcas" autor="David Ateza Rubios, Jose Agustin Diaz Del Aguila Boquete, Rodrigo De La Orden" version="6.0">
+  <lista_cartas>
+    <carta_intervencion codigo="xcv" nombre="cv" ejemplares="-1" tipo="INTERVENCION" clase="MAR" imagen="C:\LPS\Practica5\res\imagenes\albatros.jpg">
+      <coste />
+      <comportamiento descripcion="Esta intervención debe jugarse en la fase de trifulca, una vez hayan sido asignados los seres atacantes.  Al resolverse, se restan 2 puntos a los puntos de ataque de todos los seres atacantes. Este efecto permanecerá durante toda la fase de trifulca. " codigo="Salitre" variable1="false" variable2="12" />
+    </carta_intervencion>
+    <carta_intervencion codigo="zx" nombre="cxzc" ejemplares="-1" tipo="INTERVENCION" clase="TIERRA" imagen="C:\LPS\Practica5\res\imagenes\albatros.jpg">
+      <coste />
+      <comportamiento descripcion="Esta intervención debe jugarse en la fase de trifulca, una vez hayan sido asignados  los seres defensores. Al resolverse, se restan 2 puntos a los puntos de defensa de  todos los seres defensores. Este efecto permanecerá durante toda la fase de trifulca,  &#x9;incluido el paso de muerte de seres. " codigo="Resquemor" variable1="false" variable2="13" />
+    </carta_intervencion>
+  </lista_cartas>
+</juego>

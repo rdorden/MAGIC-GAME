@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT listaComportamientos (comportamiento+)>
+<!ELEMENT comportamiento (codigo,id,descripcion)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT comportamiento (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

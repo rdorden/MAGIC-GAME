@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaComportamientos SYSTEM "ModeloComportamientos.dtd">
+<listaComportamientos>
+<comportamiento>
+	<codigo>ComportamientoEntorno</codigo>
+	<id>1</id>
+	<descripcion>Sin comportamiento</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>SumaCloroAdicional</codigo>
+	<id>2</id>
+	<descripcion>Al descargar este entorno, se añade 1M al banco de cloro del brujo que lo controla.  Además, si el brujo que controla la Isla de Lesbos sólo controla entornos de clase "+clase+", se añaden NM adicionales a su banco de cloro, siendo N el número de entornos de clase "+clase+"  que controla el brujo.</descripcion>
+</comportamiento>
+<comportamiento>
+	<codigo>TransformacionCloros</codigo>
+	<id>2</id>
+	<descripcion>Al descargar este entorno, se añade 1E al banco de cloro del brujo que lo controla.  Además, todos los cloros que haya en ese momento en el banco de cloro del brujoque lo  controla se convierten en cloros de clase "+clase+", sean genéricos o de cualquier otra clase.</descripcion>
+</comportamiento>
+</listaComportamientos>
